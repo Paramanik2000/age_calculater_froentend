@@ -1,0 +1,72 @@
+.age-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px; /* pulls card closer */
+}
+
+.age-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+/* Card title */
+.age-card h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+/* Input */
+.age-card input {
+  width: 100%;
+  padding: 11px 13px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: border 0.25s, box-shadow 0.25s;
+}
+
+.age-card input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Button */
+.age-card button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 11px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.age-card button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.35);
+}
+
+/* Result */
+.result {
+  margin-top: 14px;
+  padding: 11px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  background: #ecfdf5;
+  color: #065f46;
+}
