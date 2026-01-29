@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home-container">
       <header className="home-header">
-        <h1>Age Predictor App</h1>
+        <h1>Age Calculator</h1>
         <p>Calculate your exact age from your date of birth</p>
       </header>
 
